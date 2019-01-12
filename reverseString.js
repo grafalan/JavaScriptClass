@@ -1,5 +1,4 @@
 let reverseString = (string) => {
-    reverseString = string.split('').reverse().join('')
-    return reverseString
+    return string.split('').reverse().join('')
 }
 console.log(reverseString('hello there'))
